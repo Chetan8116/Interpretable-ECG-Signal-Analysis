@@ -1,0 +1,91 @@
+{
+  "accuracy": 0.5842696629213483,
+  "classes": [
+    "CD",
+    "HYP",
+    "MI",
+    "NORM",
+    "STTC"
+  ],
+  "confusion_matrix": [
+    [
+      33,
+      1,
+      11,
+      4,
+      10
+    ],
+    [
+      2,
+      12,
+      1,
+      3,
+      4
+    ],
+    [
+      10,
+      5,
+      21,
+      11,
+      7
+    ],
+    [
+      16,
+      5,
+      14,
+      117,
+      22
+    ],
+    [
+      6,
+      5,
+      4,
+      7,
+      25
+    ]
+  ],
+  "test_samples": 356,
+  "architecture": {
+    "input_size": 240,
+    "hidden_layers": [
+      256,
+      128,
+      64
+    ],
+    "output_size": 5,
+    "activation": "relu"
+  },
+  "training_info": {
+    "iterations": 27,
+    "final_loss": 0.021975310044261228,
+    "class_balanced": true,
+    "version": "3.0"
+  },
+  "per_class_performance": {
+    "CD": {
+      "accuracy": 0.559322033898305,
+      "samples": 59,
+      "present_in_test": true
+    },
+    "HYP": {
+      "accuracy": 0.5454545454545454,
+      "samples": 22,
+      "present_in_test": true
+    },
+    "MI": {
+      "accuracy": 0.3888888888888889,
+      "samples": 54,
+      "present_in_test": true
+    },
+    "NORM": {
+      "accuracy": 0.6724137931034483,
+      "samples": 174,
+      "present_in_test": true
+    },
+    "STTC": {
+      "accuracy": 0.5319148936170213,
+      "samples": 47,
+      "present_in_test": true
+    }
+  }
+}
